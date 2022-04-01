@@ -46,6 +46,7 @@ export default createStore({
       localStorage.removeItem("token");
       localStorage.removeItem("user");
       localStorage.removeItem("monthlyTarget")
+      localStorage.removeItem("dailyExpenses")
       window.location.href = "/sign-in";
     },
     setNoty({ noty }, data) {
