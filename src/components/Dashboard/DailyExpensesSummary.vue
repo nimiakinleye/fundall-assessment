@@ -82,7 +82,7 @@ export default {
           >
           of
           <span class="text-lg font-bold m-1 mr-2" id="total"
-            >5</span
+            >1</span
           >
           <span>
             <img src="../../assets/prev.png" alt="" class="p-1" />
