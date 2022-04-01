@@ -12,7 +12,7 @@ export default {
 </script>
 
 <template>
-  <div class="px-7 py-10 rounded-lg bg-slate-300">
+  <div class="px-7 py-10 rounded-lg fundall-gray">
     <WelcomeBack class="mb-8" />
     <div class="px-8">
       <TargetMonthlyExpenses />

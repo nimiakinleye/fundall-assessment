@@ -4,7 +4,8 @@
 
 :root {
   --primary: #4de897;
-  --fundall_black: #30443C
+  --fundall_black: #30443C;
+  --fundall_gray: #F2F3F7
 }
 
 body {
@@ -29,6 +30,10 @@ body {
 
 .bg-primary {
   background-color: var(--primary);
+}
+
+.fundall-gray {
+  background: var(--fundall_gray);
 }
 
 .text-primary {
