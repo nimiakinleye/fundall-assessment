@@ -1,7 +1,7 @@
 <script>
 import Logo from '../Logo.vue'
 import Profile from './Profile.vue'
-import Button from '../reusable/button.vue'
+import Button from '../reusable/Button.vue'
 import TargetStatus from './TargetStatus.vue'
 import DailyExpensesSummary from './DailyExpensesSummary.vue'
 export default {

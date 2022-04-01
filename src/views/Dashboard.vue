@@ -1,6 +1,6 @@
 <script>
-import ExpensesBar from "../components/Dashboard/ExpensesBar.vue";
-import Sidebar from "../components/Dashboard/Sidebar.vue";
+import ExpensesBar from "../components/dashboard/ExpensesBar.vue";
+import Sidebar from "../components/dashboard/Sidebar.vue";
 import { mapState } from "vuex";
 export default {
   components: {
