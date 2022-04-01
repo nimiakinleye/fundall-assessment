@@ -1,5 +1,5 @@
 <script>
-import Button from '../components/reusable/button.vue'
+import Button from './reusable/Button.vue'
 import Logo from "../components/Logo.vue";
 export default {
   components: {
