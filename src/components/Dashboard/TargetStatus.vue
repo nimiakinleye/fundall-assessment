@@ -6,9 +6,6 @@ export default {
       // return this.$store.state.user.monthly_target ? this.$store.state.user.monthly_target : localStorage.getItem('monthlyTarget')
     }
   },
-  mounted () {
-    console.log(this.$store.state.user)
-  }
 }
 </script>
 
