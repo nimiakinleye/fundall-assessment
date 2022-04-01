@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-  <div class="fundall-black lg:w-96 h-96 p-8 rounded-xl bg-white">
+  <div class="fundall-black shadow-lg lg:w-96 h-96 p-8 rounded-xl bg-white">
     <h1>Daily Expenses Summary</h1>
     <div v-if="dailyExpenses" class="flex justify-between mt-8">
       <table

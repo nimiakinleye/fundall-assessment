@@ -28,7 +28,10 @@ export default {
   methods: {
     submit() {
       if (this.todayExpenseTotal === 0) {
-        return
+        return this.$store.commit('setNoty', {
+          type: 'error',
+          message: 'Please enter an expense',
+        });
       }
       // localStorage.setItem('dailyExpenses', this.withDate);
       // console.log(this.withDate);
