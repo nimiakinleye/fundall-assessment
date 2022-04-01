@@ -43,9 +43,7 @@ export default {
       var res = await this.axios
         .post("https://campaign.fundall.io/api/v1/login", { ...this.formData })
         .then((res) => {
-          console.log(res.data.success);
           if (res.data.success) {
-            console.log(res.data.success);
             var user = res.data.success;
             this.$store.commit("setToken", user.user.access_token);
             this.$store.commit("setUser", user.user);

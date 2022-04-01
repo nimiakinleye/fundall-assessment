@@ -16,11 +16,14 @@ export default createStore({
   },
   mutations: {
     setToken(state, token) {
+      localStorage.removeItem("token");
       state.token = token;
       localStorage.setItem("token", token);
       // console.log(state.token)
     },
     setUser(state, user) {
+      localStorage.removeItem("user");
+      localStorage.removeItem("monthlyTarget")
       state.user = user;
       var result = encodeURIComponent(JSON.stringify(user));
       localStorage.setItem("user", result);
