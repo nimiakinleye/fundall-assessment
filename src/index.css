@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #4de897;
+}
+
+body {
+  background-color: #fcfbfc;
+  padding: 12px;
+  font-family: 'Circular Std', sans-serif;
+}
+
+.disabled {
+  opacity: 0.5;
+  pointer-events: none;
+  /* cursor: not-allowed; */
+}
+
+.disable:hover {
+  cursor: not-allowed;
+}
+
+.bg-primary {
+  background-color: var(--primary);
+}
+
+.text-primary {
+  color: var(--primary);
+}
+
+.border-primary {
+  border-color: var(--primary);
+}
+
+.border-primary:focus {
+  border-color: var(--primary);
+}
+
+@media (min-width: 1200px) {
+  body {
+    padding: 88px;
+  }
+}
