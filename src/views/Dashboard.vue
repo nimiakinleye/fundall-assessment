@@ -9,7 +9,6 @@ export default {
   },
   beforeCreate() {
     this.$store.commit('fetchUser');
-    // console.log(this.$store)
   },
   computed: mapState(["user"]),
 };

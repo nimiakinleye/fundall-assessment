@@ -17,6 +17,7 @@ export default {
       border-0
       rounded
       fixed
+      z-50
       top-4
       right-0
       mb-4
