@@ -37,7 +37,7 @@ export default {
     >
       <!-- <img :src="user.imgUrl" alt=""> -->
     </div>
-    <div class="flex flex-col">
+    <div class="flex flex-col fundall-black">
       <h1 class="font-bold text-2xl capitalize">
         {{ user.firstname }} {{ user.lastname }}
       </h1>

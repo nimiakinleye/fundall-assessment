@@ -73,7 +73,7 @@ export default {
   <div>
     <div class="text-left pt-16">
       <h1 class="text-4xl mb-3">Holla</h1>
-      <p>Sign in to the vibe!</p>
+      <p class="fundall-black">Sign in to the vibe!</p>
     </div>
     <form @submit.prevent="login">
       <CustomInput

@@ -13,7 +13,7 @@ export default {
         <span class="text-primary">Welcome Back </span
         >{{ this.$store.state.user.firstname }}
       </h1>
-      <p>Now, let’s get your expenses for this month</p>
+      <p class="fundall-black">Now, let’s get your expenses for this month</p>
     </div>
     <div class="right-2 absolute bottom-5 hidden z-10 lg:block">
       <WelcomeGraphic />

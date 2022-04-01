@@ -1,3 +1,3 @@
 <template>
-  <div>Daily Expenses Summary</div>
+  <div class="fundall-black">Daily Expenses Summary</div>
 </template>

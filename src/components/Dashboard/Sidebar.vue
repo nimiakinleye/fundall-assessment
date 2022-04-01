@@ -1,6 +1,7 @@
 <script>
 import Logo from '../Logo.vue'
 import Profile from './Profile.vue'
+import Button from '../reusable/button.vue'
 import TargetStatus from './TargetStatus.vue'
 import DailyExpensesSummary from './DailyExpensesSummary.vue'
 export default {
@@ -12,13 +13,17 @@ export default {
     Profile,
     TargetStatus,
     DailyExpensesSummary,
+    Button,
   }
 }
 </script>
 
 <template>
   <div>
-    <Logo />
+    <div class="flex items-center justify-between">
+      <Logo />
+      <Button @click="this.$store.commit('logOut')" buttonTitle="Logout"/>
+    </div>
     <Profile :user="user" class="mt-11"/>
     <TargetStatus class="my-11"/>
     <DailyExpensesSummary />

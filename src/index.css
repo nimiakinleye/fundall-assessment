@@ -4,6 +4,7 @@
 
 :root {
   --primary: #4de897;
+  --fundall_black: #30443C
 }
 
 body {
@@ -20,6 +21,10 @@ body {
 
 .disable:hover {
   cursor: not-allowed;
+}
+
+.fundall-black {
+  color: var(--fundall_black);
 }
 
 .bg-primary {

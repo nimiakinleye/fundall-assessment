@@ -25,7 +25,7 @@ export default createStore({
       var result = encodeURIComponent(JSON.stringify(user));
       localStorage.setItem("user", result);
     },
-    fetchUser(state) {
+    fetchUser(state, context) {
       var data = localStorage.getItem("user");
       if (data) {
         data = decodeURIComponent(data);
@@ -40,8 +40,9 @@ export default createStore({
     logOut(state) {
       state.token = null;
       state.user = null;
-      // localStorage.removeItem("token");
+      localStorage.removeItem("token");
       localStorage.removeItem("user");
+      localStorage.removeItem("monthlyTarget")
       window.location.href = "/sign-in";
     },
     setNoty({ noty }, data) {
