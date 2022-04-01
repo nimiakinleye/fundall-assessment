@@ -84,11 +84,11 @@ export default {
           <span class="text-lg font-bold m-1 mr-2" id="total"
             >5</span
           >
-          <span class="s">
-            <img src="../../assets/img/prev.png" alt="" class="p-1" />
+          <span>
+            <img src="../../assets/prev.png" alt="" class="p-1" />
           </span>
           <span>
-            <img src="../../assets/img/next.png" alt="" class="p-1" />
+            <img src="../../assets/next.png" alt="" class="p-1" />
           </span>
         </p>
       </div>
