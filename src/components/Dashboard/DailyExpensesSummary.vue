@@ -58,7 +58,6 @@ export default {
         <tbody class="divide-y px-2 divide-gray-200 mx-2 scroll">
           <tr class="hover:bg-gray-100">
             <td class="py-4 px-6 text-gray-900 flex items-center">
-              <img src="../assets/img/Mask.png" alt="" class="mr-3" />
               {{ dailyExpenses.date }}
             </td>
             <td class="py-4 px-6 font-medium text-gray-500 text-primary">

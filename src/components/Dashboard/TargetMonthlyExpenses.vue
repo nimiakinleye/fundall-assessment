@@ -17,7 +17,14 @@ export default {
   },
   methods: {
     setMonthlyTarget () {
+      if (this.formData.targetMonthlyExpenses === null || this.formData.targetDate === null) {
+        return this.$store.commit('setNoty', {
+          message: 'Please input complete details',
+          type: 'error',
+        })
+      }
       localStorage.setItem('monthlyTarget', this.formData.targetMonthlyExpenses)
+      window.location.href = '/dashboard'
     }
   }
 };
@@ -25,7 +32,7 @@ export default {
 
 <template>
   <div class="max-w-md">
-    <form @submit="setMonthlyTarget">
+    <form @submit.prevent="setMonthlyTarget">
       <CustomInput
         placeholder="Enter Target Monthly Expenses"
         type="number"
